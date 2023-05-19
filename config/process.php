@@ -5,6 +5,7 @@ session_start();
 require_once("conect.php");
 require_once("url.php");
 
+$contacts = [];
 
 $query = "SELECT * FROM contacts";
 
