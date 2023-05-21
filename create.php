@@ -18,8 +18,8 @@
      </div>
     
      <div class="form-group">
-       <label for="phone">Informações do contato</label>
-       <textarea type="text" class="form-control" id="phone" name="phone" rows="3" placeholder="Digite as informações do contato" autocomplete="off"></textarea>
+       <label for="observations">Informações do contato</label>
+       <textarea type="text" class="form-control" id="observations" name="observations" rows="3" placeholder="Digite as informações do contato" autocomplete="off"></textarea>
      </div>
 
      <br/>
