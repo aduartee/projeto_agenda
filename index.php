@@ -28,8 +28,8 @@
                          <td scope="row"><?= $contact['phone'] ?></td>
 
                          <td class="actions">
-                             <a href="<?= $BASE_URL ?>show.php?id=<?= $contact['id']?>"><i class="fas fa-eye check-icon" title="Detalhes"></i></a>
-                             <a href="<?= $BASE_URL ?>edit.php"><i class="far fa-edit edit-icon" title="Editar"></i></a>
+                             <a href="<?= $BASE_URL ?>show.php?id=<?= $contact['id'] ?>"><i class="fas fa-eye check-icon" title="Detalhes"></i></a>
+                             <a href="<?= $BASE_URL ?>edit.php?id=<?= $contact['id'] ?>"><i class="far fa-edit edit-icon" title="Editar"></i></a>
                              <button type="submit" class="delete-btn"> <i class="fas fa-times delete-icon" title="Deletar"> </i></button>
                          </td>
                      </tr>
