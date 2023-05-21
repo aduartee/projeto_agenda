@@ -193,5 +193,19 @@
     margin-bottom: 20px; 
 }
 
+@media (max-width: 480px) {
+    .navbar-brand img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 14px;
+        margin-right: 5px;
+    }
+}
+
+
+
 
 
