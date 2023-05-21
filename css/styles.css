@@ -1,9 +1,177 @@
-body{
-    background-color: rgb(95, 95, 95);
+/* ... */
+
+.navbar {
+    background-color: #4285f4;
+}
+
+.navbar-brand img {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    transition: transform 1.4s ease;
+}
+
+.navbar-brand:hover img {
+    transform: rotate(360deg);
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    margin-right: 10px;
+    font-weight: bold;
+    transform: scale(1.1);
+    transition: transform 1s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    text-decoration: underline;
+    transform: scale(1.2);
+    color: #f8f9fa;
+}
+
+.table {
+    margin-top: 20px;
+    width: 100%;
+    transition: box-shadow 5s ease;
+}
+
+.table td:hover {
+    background-color: #ebebeb;
+}
+
+#maintitle {
+    text-align: center;
+    color: #333333;
+    transition: color 0.3s ease;
+}
+
+#maintitle:hover {
+    color: #4285f4;
+}
+
+#main-title{
+    text-align: center;
+    margin: 15px 0 40px;
+}
+
+#contacts-table {
+    max-width: 800px;
+    margin: 5vh auto;
+}
+
+#contacts-table thead{
+    color: #f2f2f2;
+    background-color: rgb(13, 145, 206);
 }
 
 
+#empty-list-text{
+    text-align: center;
+}
 
-.navbar-brand img{
-    width: 100px;
+#msg {
+    color: rgb(13, 94, 13);
+    background-color: #b7ffa9;
+    border: 1px solid #f2f2f2;
+    max-width: 500px;
+    margin: 20px auto; 
+    padding: 15px;
+    margin-top: 30px;
+    opacity: 0; 
+    animation: fade-in 1s ease-in forwards; 
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0; /* Opacidade inicial de 0% */
+    }
+    100% {
+        opacity: 1; /* Opacidade final de 100% */
+    }
+}
+
+.action {
+    text-align: right;
+    width:330px;
+}
+
+
+.action i {
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+.check-icon{
+    color:#b7ffa9;
+}
+
+.edit-icon{
+    color:#0026fc;
+}
+
+.delete-icon{
+    color:#853333;
+}
+
+.delete-btn {
+    background-color: transparent;
+    padding:0;
+    border: none;
+}
+
+.col-id {
+    font-weight: bold;
+}
+
+/* MOSTRA CONTATO */
+
+#view-contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#main-title {
+    text-align: center;
+    color: #333333;
+    margin-top: 0;
+    margin-bottom: 20px;
+    transition: 2s;
+}
+
+#main-title:hover {
+    color: #acacac;
+}
+
+
+.bold {
+    font-weight: bold;
+}
+
+.bold p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+#back-link-container{
+    display: block;
+    width: 200vh;
+    margin: 30px auto 0;
+}
+
+#back-link{
+    border: 1px solid #1eaad4;
+    background-color: #2e84ac;
+    color: #ffffff;
+    border-radius: 7px;
+    padding: 5px;
+    text-decoration: none;
+    transition: 2s ease-out;
+}
+
+#back-link:hover{
+    background-color: #b1ebfd;
 }
