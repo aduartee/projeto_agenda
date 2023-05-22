@@ -39,6 +39,10 @@
     background-color: #ebebeb;
 }
 
+.delete-form{
+    display: inline-block;
+}
+
 #maintitle {
     text-align: center;
     color: #333333;
